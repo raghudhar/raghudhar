@@ -1,0 +1,92 @@
+VPN
+debasis_in
+Svrr@098765!
+
+Rkl@098765
+
+
+Username:- dpaikara
+Password:- Rkl@098765
+
+
+Username:- DEBASIS.PAIKARAY@ORACLE.COM
+Password:- Svrr@098765!!
+
+======================
+universal password
+C1g2b3u4#
+======================
+
+https://alm.oraclecorp.com/cgbu/#projects/tab-cicd
+
+jenkins:- lhr-190.snlhrprshared1.gbucdsint02lhr.oraclevcn.com
+
+
+Itr13(wrapper), PS7-MS-Itr41 (BRM), Itr4(ECE), v1.28(API Spec)
+
+
+
+DEV | 01-02-23 | R-40 | 13.41.4-b001
+--------------------------------------------------------
+CPU - 34627512
+ip10 brm_apps 12.0.0.7.0-34934113
+ip12 cm 12.0.0.7.0-34968056
+eai - 12.0.0.7.0-34627512
+billingcare_sdk - 12.0.0.7.0-34627512
+kafka - 12.0.0.7.0-34627512
+realtime - 12.0.0.7.0-34627512
+ip4 config_jobs 12.0.0.7.0-34763817 
+
+
+
+
+common-brm-cm common-cm-13.41.4-b001
+common-brm-config_jobs common-config-jobs-13.41.4-b001
+common-billingcare_sdk common-rest-13.41.4-b001
+dtac-brmapps dtac-brmapps-13.41.4-b001
+dtac-brm-cm dtac-cm-13.41.4-b001
+dtac-brm-config_jobs dtac-configjobs-13.41.4-b001
+dtac-dm_kafka dtac-dm_kafka-13.41.4-b001
+dtac-ifw-relatime dtac-ifw-relatime-13.41.4-b001
+dtac-eai_js dtac-eai_js-13.41.4-b001
+-------------------------------------------------------
+
+Date:- 01/02/2023
+IMAGE_NAME=common-brm-cm
+IMAGE_TAG=common-cm-13.41.4-b001
+
+IMAGE_NAME=common-brm-config_jobs
+IMAGE_TAG=common-config-jobs-13.41.4-b001
+
+IMAGE_NAME=common-billingcare_sdk
+IMAGE_TAG=common-rest-13.41.4-b001
+
+
+
+
+
+
+
+note points
+------------
+tabxcnoper01.snlhrprshared1.gbucdsint02lhr.oraclevcn.com/patchset5/oracledb_exporter:latest
+
+
+
+docker save -o oracledb_exporter.tar tabxcnoper01.snlhrprshared1.gbucdsint02lhr.oraclevcn.com/patchset5/oracledb_exporter:latest
+
+
+
+ls -lrt
+
+mkdir oracledb
+mv oracledb_exporter.tar dtac_oracledb_exporter.tar
+
+
+
+
+curl -X PUT --data-binary '@dtac_oracledb.tar' https://objectstorage.uk-london-1.oraclecloud.com/p/hHdw5ayWjHnNTO7ctCsppUgzkh2piRtff8Sh_kgRH9pcNdshjnadQ1krgFMjb2iX/n/idvvfekwvhut/b/tab_dtac_lhrbkt/o/dtac_oracledb.tar
+
+
+Username: ragvadap_in 
+Password: xH1$lZAD

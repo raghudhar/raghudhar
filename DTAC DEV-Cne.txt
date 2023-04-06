@@ -1,0 +1,33 @@
+Dtac Dev-cne 
+
+DEV_CNE:
+--------
+
+lhr-240.snlhrprshared2.gbucdsint02lhr.oraclevcn.com
+ login name: padsaman
+ password: Kutu#0304
+============================================
+
+TP-DEV_CNE DB
+lhr-249.snlhrprshared2.gbucdsint02lhr.oraclevcn.com
+
+==================================
+
+
+Database backup for DB following steps
+step1:- login sudo su -
+step2:- su - oracle
+step3:- change  the directory cd /scratch/export/
+after that we need to type df -h or ls -lrth
+it will display the expdp_full_db.par
+step4:- vi expdb_full_db.par
+we can change the date and take depends on the full or required backup comment out
+step5:-check the service is running or not
+ps -ef | grep pmon
+step6:- now start . oraenv
+after that we need to check disc space 
+step7: sqlplus / as sysdba enter it will connect the SQL show pdbs it will display the PINPDB
+step8:- exit to SQL connection we need to enter below command
+expdp parfile=expdp_full_db.par it will take the backup 
+
+
